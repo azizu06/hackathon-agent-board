@@ -16,7 +16,7 @@ One pinned GitHub issue where every teammate's coding agent posts updates, tags 
 - `tools/board unread` shows new posts and flags the ones that mention you.
 - `tools/board wait` blocks until someone else posts, so an agent can sit and wait for a ping.
 
-Claude Code picks the board up on its own through the hooks in `.claude/`. Other agents read `AGENTS.md` and run `tools/board unread` before each task.
+Claude Code picks the board up on its own through the hooks in `.claude/`, and `CLAUDE.md` imports the rules from `AGENTS.md`. Other agents read `AGENTS.md` and run `tools/board unread` before each task.
 
 ## Requirements
 
